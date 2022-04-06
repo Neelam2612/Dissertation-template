@@ -15,8 +15,12 @@ body{
 }
 ul.list{
 list-style-type: none;
+text-align: center;
 }
 
 ul.list li{
+    width: 250px;
+}
+ul.list li input{
 
 }
