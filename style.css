@@ -1,6 +1,7 @@
-"{margig: 0; padding: 0}
+*{margin: 0; padding:0}
 body{
     background-color: beige;
+    padding-top: 10vh;
 }
 
 .form-comtainer{
@@ -10,8 +11,12 @@ body{
     background-color: aqua;
     border-radius: 10px;
     box-shadow: 0 0 10px 0; color: black;
-    
+    margin: auto;
+}
+ul.list{
+list-style-type: none;
+}
 
-
+ul.list li{
 
 }
