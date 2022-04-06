@@ -20,6 +20,7 @@ text-align: center;
 
 ul.list li{
     width: 250px;
+    margin-bottom: 15px;
 }
 ul.list li input{
     width: 250px;
@@ -27,9 +28,12 @@ ul.list li input{
     padding: 8px 0px;
     border: none;
     background-color: gray;
+    border-radius: 5px;
 }
 ul.list li input[type*"button"]{
     background-color: yellow;
     color: white;
-
+}
+ul.list li:nth-child(5){
+    color: red;
 }
