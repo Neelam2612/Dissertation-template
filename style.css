@@ -22,5 +22,12 @@ ul.list li{
     width: 250px;
 }
 ul.list li input{
+    width: 250px;
+    text-align: center;
+
+}
+ul.list li input[type*"button"]{
+    background-color: yellow;
+    color: white;
 
 }
