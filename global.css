@@ -1,18 +1,30 @@
 *{margin: 0; padding:0}
 body{
     background-color: rgb(17, 150, 174);
-    padding-top: 10vh;
+    padding-top: 30vh;
 }
 
 .form-comtainer{
     width: 250px;
     height: auto;
-    padding: 20px 30px; 
+    padding: 40px 30px; 
     background-color: aqua;
     border-radius: 10px;
-    box-shadow: 0 0 10px 0; color: black;
+    box-shadow: 0 0 10px 0 #000;
     margin: auto;
+    position: relative;
 }
+
+.user-img{
+    background:url('user.png') no-repeat;
+    width: 70px;
+    height: 70px;
+    background-size: 100%;
+    position: absolute;
+    top: -40px;
+    left: 110px;
+}
+
 ul.list{
 list-style-type: none;
 text-align: center;
@@ -26,14 +38,18 @@ ul.list li input{
     width: 250px;
     text-align: center;
     padding: 8px 0px;
-    border: none;
-    background-color: gray;
+    border:none;
+    background-color: azure;
     border-radius: 5px;
 }
-ul.list li input[type*"button"]{
-    background-color: yellow;
+ul.list li input[type="button"]{
+    background-color: rgb(219, 99, 235);
     color: white;
 }
 ul.list li:nth-child(5){
     color: red;
+}
+ul.list li input[type="button"]{
+    background-color: rgb(21, 0, 255);
+    color: white;
 }
